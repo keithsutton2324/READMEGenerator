@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const { profile } = require('console');
 
 // array of questions for user
 const questions = [
@@ -24,11 +25,46 @@ function init() {
       questions
   )
   .then((data) => { console.log(data)
-    // const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
+    var READMEtxt = `
+# Title: ${data.title}
 
-    // fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-    //   err ? console.log(err) : console.log('Success!')
-    // );
+## Developed By: ${data.contributors}
+
+## Table of Contents:
+* [Description: ](#description)
+* [Installation: ](#installation)
+* [Usage: ](#usage) 
+* [Testing: ](#testing) 
+* [License: ](#license) 
+* [Developer Profile: ](#profile) 
+* [Contact Information: ](#contact) 
+
+## Description
+${data.description}
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## Testing
+${data.testing}
+
+## License
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
+
+## Profile
+![https://github.com/keithsutton2324](https://github.com/keithsutton2324)
+
+## Contact
+If you have questions feel free to reach me at: ${data.address}
+    `
+console.log(READMEtxt)    
+
+    fs.writeFileSync("README.md", READMEtxt, (err) =>
+      err ? console.log(err) : console.log('Success!')
+    );
   });
 }
 

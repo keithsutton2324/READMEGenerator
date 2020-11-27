@@ -1,7 +1,7 @@
 
-# Title: y
+# Title: README Generator
 
-## Developed By: y
+## Developed By: Keith
 
 ## Table of Contents:
 * [Description: ](#description)
@@ -11,18 +11,25 @@
 * [License: ](#license) 
 * [Developer Profile: ](#profile) 
 * [Contact Information: ](#contact) 
+
 ## Description
-y
+CLI Node js app.
+
 ## Installation
-y
+npm i 
+
 ## Usage
-y
+Free
+
 ## Testing
-y
+Manual
+
 ## License
-![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ## Profile
 ![https://github.com/keithsutton2324](https://github.com/keithsutton2324)
+
 ## Contact
-If you have questions feel free to reach me at: y
+If you have questions feel free to reach me at: 
     

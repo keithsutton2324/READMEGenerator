@@ -1,7 +1,7 @@
 
 # Title: README Generator
 
-## Developed By: Keith
+## Developed By: Keith Sutton
 
 ## Table of Contents:
 * [Description: ](#description)
@@ -13,10 +13,10 @@
 * [Contact Information: ](#contact) 
 
 ## Description
-CLI Node js app.
+CLI Node js app
 
 ## Installation
-npm i 
+npm i
 
 ## Usage
 Free
@@ -31,5 +31,7 @@ Manual
 ![https://github.com/keithsutton2324](https://github.com/keithsutton2324)
 
 ## Contact
-If you have questions feel free to reach me at: 
-    
+If you have questions feel free to reach me at: suttonk@sbcglobal.net
+
+## Link to walkthrough video on google drive
+https://drive.google.com/file/d/1X5Pw8mVj611mHiE6_VaZZK_Wwgjwam25/view    
